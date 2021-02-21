@@ -34,14 +34,26 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
 }
 .calc input {
     width: 20rem;
     height: 1.5rem;
-    margin: 2rem;
+    margin: 5rem 0rem 2rem 0 ;
 }
-.calc button {
+.result {
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calc .result h2 h3  {
+    width: 3rem;
+    height: 2rem;
+    margin: 0rem 3rem;
+    background-color:bisque;
+}
+.calc .result button {
     border-radius: 5px;
     margin-left: 10rem;
     background-color: chartreuse;
